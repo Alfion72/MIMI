@@ -1,4 +1,5 @@
 <template>
+    <Heder></Heder>
     <div class="container">
         <Sidebar></Sidebar>
         <div class="content">
@@ -9,6 +10,7 @@
 
 <script setup>
 import Sidebar from '../components/Sidebar.vue';
+import Heder from '@/components/Heder.vue';
 </script>
 
 <style>
